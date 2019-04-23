@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+body{
+    background: rgb(48,207,208);
+    background-image: linear-gradient(to bottom, #30cfd0 0%, #330867 100%);
+    color: white;
+    max-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.body-card{
+    background: rgba(243, 236, 236, 0.164);
+    width: 50vw;
+}
+
+.text{    
+    margin: 10px;
+    text-align: center;
+    min-height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    /* resize: both; */
+    /* overflow: auto; */
+}
+.main-content a{
+    color: #e7a778;
+    text-decoration: none;
+}
+.main-content a:visited{
+    color: #e7a778;
+    text-decoration: none;
+}
+.page-header{
+    font: normal bold 45px Roboto Mono;
+    text-align: center;
+}
+#particles-js{
+    position: fixed;
+    background-repeat: no-repeat center center fixed;
+    background-size: cover;
+    /* background-position: 50% 50%; */
+    z-index: -1;
+    height: 100%;
+    overflow: hidden;
+}
