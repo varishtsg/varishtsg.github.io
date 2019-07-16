@@ -2,7 +2,7 @@
 body{
     background: rgb(48,207,208);
     background-image: linear-gradient(to bottom, #30cfd0 0%, #330867 100%);
-    color: white;
+    
     max-height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -10,39 +10,74 @@ body{
 }
 
 .main-content{
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; */
     z-index: 10;
+    min-width: 100vw;
+}
+
+.header{
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.subtitle{
+    font: normal bold 5vh Roboto Mono;
 }
 
 .body-card{
-    background: rgba(243, 236, 236, 0.164);
-    width: 50vw;
+    background: rgba(99, 96, 96, 0.5);
+    /* width: 50vw; */
+    /* float: left; */
+    color: white;
+    min-height: 100vh;
 }
 
-.text{    
-    margin: 10px;
-    text-align: center;
-    min-height: 40px;
-    border-radius: 5px;
-    padding: 10px;
-    /* resize: both; */
-    /* overflow: auto; */
+.body-content{    
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
-.main-content a{
-    color: #e7a778;
+li a{
+    color: white;
     text-decoration: none;
 }
-.main-content a:visited{
-    color: #e7a778;
+
+li a:visited{
+    color: white;
     text-decoration: none;
 }
-.page-header{
-    font: normal bold 45px Roboto Mono;
-    text-align: center;
+
+li a:hover{
+    color:#bbb3d9;
+    text-decoration: none;
 }
+
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.links li{
+    display: block;
+    flex: 0 1 auto;
+    list-style-type: none;
+    padding-inline-end: 1em;
+}
+
+
+
 #particles-js{
     /* fill the background */
     min-height: 100%;
