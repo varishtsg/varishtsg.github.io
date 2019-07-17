@@ -29,7 +29,7 @@ body{
 }
 
 .body-card{
-    background: rgba(99, 96, 96, 0.5);
+    background: rgba(0,0,0, 0.5);
     /* width: 50vw; */
     /* float: left; */
     color: white;
