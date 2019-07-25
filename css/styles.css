@@ -7,6 +7,15 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    overflow-x: hidden;
+}
+
+.profile{
+    height: 100%;
+    min-height: 350px;
+    background: url('./../images/me.jpg') no-repeat center top;
+    background-size: cover;
 }
 
 .main-content{
@@ -76,6 +85,18 @@ li a:hover{
     padding-inline-end: 1em;
 }
 
+.content-card{
+    background: #f5f5f596;
+    color: black;
+    min-height: 50vh;
+    /* max-height: 75vh; */
+}
+
+/* carousel */
+/* .carousel-inner > .carousel-item > img{
+    margin:auto;
+    width:75%
+} */
 
 
 #particles-js{
