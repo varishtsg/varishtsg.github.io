@@ -90,6 +90,11 @@ li a:hover{
     color: black;
     min-height: 50vh;
     /* max-height: 75vh; */
+    padding-block: 1.5rem;
+}
+
+.content-card > div{
+    padding-block: 1em;
 }
 
 /* carousel */
