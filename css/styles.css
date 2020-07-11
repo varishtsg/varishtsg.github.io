@@ -142,3 +142,39 @@ li a:hover{
         height: 500px;
     }
 }
+
+.badge-list iframe{
+    margin-inline: 10px;
+}
+
+/* .badge-container{
+    width: 150px;
+    height: 270px;
+}
+
+.badge{
+    border: 1px solid #e5e5e5;
+    color: #333;
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: .88rem;
+    padding: 22px 0 0;
+    text-align: center;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    line-height: 1;
+}
+.badge img{
+    margin: 0 0 22px;
+}
+.badge a{
+    text-decoration: none;
+}
+
+.badge-name {
+    color: #333;
+    display: block;
+    font-size: 1rem;
+    line-height: 1.1em;
+    margin: 0 8px 8px;
+} */
